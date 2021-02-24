@@ -3,33 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="/main.css">
+  
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <div class="bubble-one"></div>
+  <div class="bubble-two"></div>
 
-  80K
-  Followers
+  <div class="container">
+    <div class="top-img"></div>
+    <div class="avatar-border">
+      <div class="avatar-img"></div>
+    </div>
 
-  803K
-  Likes
+    <div class="profile">
+      <div class="name">
+        <p>
+          Victor Crest <span>26</span>
+        </p>
+      </div>
+        
+      
+      <div class="city">
+        <p>
+          London
+        </p>
+      </div>
 
-  1.4K
-  Photos
+      <div class="profile-info">
+        <div>
+          <p class="number">80K</p>
+          <p class="type">Followers</p>
+        </div>
+
+        <div>
+          <p class="number">803K</p>
+          <p class="type">Likes</p>
+        </div>
+
+        <div>
+          <p class="number">1.4K</p>
+          <p class="type">Photos</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/callapa1">Cristian Lopez</a>.
   </div>
 </body>
 </html>
