@@ -146,3 +146,14 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 600px) {
+  .bubble-one {
+    top: -450px;
+    left: -660px;
+  }
+  .bubble-two {
+    right: -550px;
+    bottom: -450px;
+  }
+}
